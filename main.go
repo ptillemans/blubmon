@@ -70,7 +70,6 @@ func main() {
 		logger.Fatal(err)
 	}
 	if online {
-		fmt.Println("Online")
 		logger.Print("Online")
 	} else {
 		fmt.Println("Offline")
